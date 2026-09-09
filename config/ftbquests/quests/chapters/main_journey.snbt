@@ -1,0 +1,111 @@
+{
+default_hide_dependency_lines: false
+default_quest_shape: "circle"
+filename: "main_journey"
+icon: "aeronautics:propeller_bearing"
+id: "A027000000000001"
+order_index: 0
+progression_mode: "flexible"
+quest_links: [ ]
+quests: [
+{
+icon: "minecraft:compass"
+id: "A027100000000001"
+shape: "hexagon"
+tasks: [
+{
+icon: "minecraft:compass"
+id: "A027110000000001"
+type: "checkmark"
+}
+]
+x: 0.0d
+y: 0.0d
+}
+{
+dependencies: ["A027100000000001"]
+icon: "minecraft:chest"
+id: "A027100000000002"
+tasks: [
+{
+icon: "minecraft:chest"
+id: "A027110000000002"
+type: "checkmark"
+}
+]
+x: 3.0d
+y: 0.0d
+}
+{
+dependencies: ["A027100000000002"]
+icon: "minecraft:crafting_table"
+id: "A027100000000003"
+tasks: [
+{
+id: "A027110000000003"
+item: { count: 1, id: "minecraft:crafting_table" }
+type: "item"
+}
+]
+x: 6.0d
+y: 0.0d
+}
+{
+dependencies: ["A027100000000003"]
+icon: "create:andesite_alloy"
+id: "A027100000000004"
+tasks: [
+{
+id: "A027110000000004"
+item: { count: 1, id: "create:andesite_alloy" }
+type: "item"
+}
+]
+x: 9.0d
+y: 0.0d
+}
+{
+dependencies: ["A027100000000004"]
+icon: "immersiveengineering:ingot_steel"
+id: "A027100000000005"
+tasks: [
+{
+id: "A027110000000005"
+item: { count: 1, id: "immersiveengineering:ingot_steel" }
+type: "item"
+}
+]
+x: 12.0d
+y: 0.0d
+}
+{
+dependencies: ["A027100000000005"]
+icon: "aeronautics:propeller_bearing"
+id: "A027100000000006"
+shape: "hexagon"
+tasks: [
+{
+id: "A027110000000006"
+item: { count: 1, id: "aeronautics:propeller_bearing" }
+type: "item"
+}
+]
+x: 15.0d
+y: 0.0d
+}
+{
+dependencies: ["A027100000000006"]
+icon: "minecraft:spyglass"
+id: "A027100000000007"
+tasks: [
+{
+icon: "minecraft:spyglass"
+id: "A027110000000007"
+type: "checkmark"
+}
+]
+x: 18.0d
+y: 0.0d
+}
+]
+}
