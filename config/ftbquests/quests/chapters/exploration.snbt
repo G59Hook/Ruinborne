@@ -1,0 +1,109 @@
+{
+default_hide_dependency_lines: false
+default_quest_shape: "diamond"
+filename: "exploration"
+icon: "minecraft:filled_map"
+id: "A027000000000002"
+order_index: 1
+progression_mode: "flexible"
+quest_links: [ ]
+quests: [
+{
+icon: "minecraft:compass"
+id: "A027200000000001"
+tasks: [
+{
+icon: "minecraft:compass"
+id: "A027210000000001"
+type: "checkmark"
+}
+]
+x: 0.0d
+y: 0.0d
+}
+{
+dependencies: ["A027200000000001"]
+icon: "explorerscompass:explorerscompass"
+id: "A027200000000002"
+tasks: [
+{
+icon: "explorerscompass:explorerscompass"
+id: "A027210000000002"
+type: "checkmark"
+}
+]
+x: 3.0d
+y: 0.0d
+}
+{
+dependencies: ["A027200000000001"]
+icon: "naturescompass:naturescompass"
+id: "A027200000000003"
+tasks: [
+{
+icon: "naturescompass:naturescompass"
+id: "A027210000000003"
+type: "checkmark"
+}
+]
+x: 6.0d
+y: 0.0d
+}
+{
+dependencies: ["A027200000000002"]
+icon: "minecraft:chest"
+id: "A027200000000004"
+tasks: [
+{
+icon: "minecraft:chest"
+id: "A027210000000004"
+type: "checkmark"
+}
+]
+x: 9.0d
+y: 0.0d
+}
+{
+dependencies: ["A027200000000004"]
+icon: "minecraft:heart_of_the_sea"
+id: "A027200000000005"
+tasks: [
+{
+icon: "minecraft:heart_of_the_sea"
+id: "A027210000000005"
+type: "checkmark"
+}
+]
+x: 0.0d
+y: 3.0d
+}
+{
+dependencies: ["A027200000000004"]
+icon: "minecraft:ender_eye"
+id: "A027200000000006"
+tasks: [
+{
+icon: "minecraft:ender_eye"
+id: "A027210000000006"
+type: "checkmark"
+}
+]
+x: 3.0d
+y: 3.0d
+}
+{
+dependencies: ["A027200000000005"]
+icon: "minecraft:nether_star"
+id: "A027200000000007"
+tasks: [
+{
+icon: "minecraft:nether_star"
+id: "A027210000000007"
+type: "checkmark"
+}
+]
+x: 6.0d
+y: 3.0d
+}
+]
+}
