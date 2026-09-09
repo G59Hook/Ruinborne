@@ -4,7 +4,7 @@ Ruinborne is a progression-focused Minecraft 1.21.1 NeoForge adventure and engin
 
 ## Current Development Build
 
-**Alpha 0.2.9**
+**Alpha 0.2.10**
 
 Ruinborne is still under active development and has not yet entered public release.
 
@@ -14,7 +14,7 @@ Ruinborne is still under active development and has not yet entered public relea
 
 Playable builds are distributed as CurseForge modpack ZIP files named like:
 
-`Ruinborne-0.2.9.zip`
+`Ruinborne-0.2.10.zip`
 
 When a build is published, download the playable ZIP from either:
 
@@ -56,9 +56,7 @@ Aeronautics is intended to appear throughout the game instead of existing only a
 
 ## RPG Progression
 
-Alpha 0.2.9 adds the first character-progression layer with Pufferfish's Skills and a custom Ruinborne talent tree.
-
-There are no classes and no permanent weapon or magic lockouts. Players earn separate skill experience through normal play and freely spend points across:
+Alpha 0.2.10 expands the character-progression system into six separate Pufferfish Skills tabs:
 
 - Combat
 - Survival
@@ -67,16 +65,24 @@ There are no classes and no permanent weapon or magic lockouts. Players earn sep
 - Engineering
 - Aviation
 
+The current build contains 93 talent nodes across those tabs. Talent tooltips show the exact effect, category-XP cost, skill-point cost, and rank. There are no classes and no permanent weapon or magic lockouts.
+
+Combat, Survival, Exploration, Arcane, and Engineering have activity-based XP sources. Aviation is intentionally milestone-driven so ordinary grinding cannot replace the Aeronautics progression path.
+
 Talent bonuses are intentionally restrained so character growth does not trivialize Ruinborne's bosses or exploration content.
 
 ## Quest Roadmap
 
-FTB Quests provides an in-game roadmap rather than a mandatory checklist. The first quest chapters are:
+FTB Quests provides an in-game roadmap rather than a mandatory checklist. Alpha 0.2.10 rebuilds the quest presentation with readable chapter names, quest titles, descriptions, task names, and proper icons.
+
+Current chapters are:
 
 - Main Journey
 - Exploration
 - Engineering & Flight
 - Talents
+
+The Engineering & Flight path now seeds Aeronautics throughout progression through envelope construction, hot-air lift, powered flight, and later armed-airship goals rather than treating flight as a single late-game unlock.
 
 Future chapters will expand boss hunting, dimensions, magic, loot progression, Aeronautics milestones, and endgame content.
 
@@ -112,7 +118,7 @@ CurseForge-hosted mod JAR files are intentionally not committed to the repositor
 
 ## Versioning
 
-Current alpha builds use versions such as `0.2.7`, `0.2.8`, and `0.2.9`. Larger milestones will advance the minor version, such as `0.3.0`.
+Current alpha builds use versions such as `0.2.8`, `0.2.9`, and `0.2.10`. Larger milestones will advance the minor version, such as `0.3.0`.
 
 ## Status
 
