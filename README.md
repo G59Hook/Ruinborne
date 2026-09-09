@@ -1,12 +1,52 @@
 # Ruinborne
 
-Ruinborne is a progression-focused Minecraft 1.21.1 NeoForge adventure and engineering modpack built around dangerous exploration, powerful loot, major bosses, Create machinery, advanced technology, and Create Aeronautics airships.
+Ruinborne is a progression-focused Minecraft 1.21.1 NeoForge adventure and engineering modpack built around dangerous exploration, powerful loot, major bosses, Create machinery, advanced technology, character progression, and Create Aeronautics airships.
 
 ## Current Development Build
 
 **Alpha 0.2.9**
 
 Ruinborne is still under active development and has not yet entered public release.
+
+## How to Download and Play
+
+**Do not use GitHub's `Code -> Download ZIP` button to install Ruinborne.** That download contains the development repository, not a complete CurseForge-importable modpack.
+
+Playable builds are distributed as CurseForge modpack ZIP files named like:
+
+`Ruinborne-0.2.9.zip`
+
+When a build is published, download the playable ZIP from either:
+
+1. **GitHub Releases** for the matching Ruinborne version, or
+2. **CurseForge** once the public CurseForge project files are available.
+
+### Installing a GitHub Release build in CurseForge
+
+1. Download the `Ruinborne-x.x.x.zip` file from the GitHub Releases page.
+2. Open the CurseForge app.
+3. Select Minecraft.
+4. Choose **Create Custom Profile**.
+5. Choose **Import**.
+6. Select the downloaded `Ruinborne-x.x.x.zip` file.
+7. CurseForge will read the included `manifest.json`, download the required hosted mods, and copy Ruinborne's custom files from the `overrides` folder.
+8. Launch the newly created Ruinborne profile.
+
+The CurseForge pack ZIP contains the manifest and Ruinborne-specific overrides. Most mod JARs are intentionally not bundled directly because CurseForge downloads them from their individual project pages during import.
+
+### Development Repository vs Playable Release
+
+This GitHub repository stores Ruinborne's development source and configuration, including:
+
+- configs
+- KubeJS scripts
+- FTB Quest data
+- talent-tree data
+- documentation
+- balancing changes
+- changelogs
+
+The repository itself is **not** the installer. Players should use a packaged `Ruinborne-x.x.x.zip` from Releases or CurseForge.
 
 ## Core Direction
 
@@ -31,7 +71,7 @@ Talent bonuses are intentionally restrained so character growth does not trivial
 
 ## Quest Roadmap
 
-FTB Quests now provides an in-game roadmap rather than a mandatory checklist. The first quest chapters are:
+FTB Quests provides an in-game roadmap rather than a mandatory checklist. The first quest chapters are:
 
 - Main Journey
 - Exploration
@@ -68,9 +108,7 @@ Ruinborne currently includes major content from systems such as:
 
 ## Repository
 
-This repository tracks Ruinborne's custom configuration, KubeJS scripts, quest data, talent-tree data, pack documentation, balancing work, and release history.
-
-CurseForge-hosted mod JAR files are intentionally not committed to the repository. Mod versions are distributed through the CurseForge manifest.
+CurseForge-hosted mod JAR files are intentionally not committed to the repository. Mod versions are distributed through the CurseForge manifest contained in each playable release ZIP.
 
 ## Versioning
 
