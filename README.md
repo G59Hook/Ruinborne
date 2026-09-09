@@ -2,9 +2,9 @@
 
 Ruinborne is a progression-focused Minecraft 1.21.1 NeoForge adventure and engineering modpack built around dangerous exploration, powerful loot, major bosses, Create machinery, advanced technology, and Create Aeronautics airships.
 
-## Current Version
+## Current Development Build
 
-**Alpha 0.2.7**
+**Alpha 0.2.8**
 
 Ruinborne is still under active development and has not yet entered public release.
 
@@ -29,6 +29,8 @@ The current development focus is:
 The intended technology direction is:
 
 **Create → Immersive Engineering → Powah → Mekanism → Aeronautics / advanced machinery**
+
+Alpha 0.2.8 begins tying these systems together directly. Create Aeronautics flight components now require Immersive Engineering steel, and Powah Energizing Orb costs have been increased modestly to make rushing higher energy tiers less trivial.
 
 ## Major Adventure Systems
 
@@ -56,7 +58,7 @@ CurseForge-hosted mod JAR files are intentionally not committed to the repositor
 
 ## Versioning
 
-Current alpha builds use:
+Current alpha builds use versions such as:
 
 - `0.2.7`
 - `0.2.8`
