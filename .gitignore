@@ -1,0 +1,25 @@
+# Minecraft runtime folders
+logs/
+crash-reports/
+saves/
+screenshots/
+shaderpacks/
+local/
+
+# Downloaded mod JARs are managed by CurseForge manifest
+mods/
+*.jar
+
+# Java / IDE / OS noise
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Temporary/build files
+*.tmp
+*.bak
+*.log
+build/
+dist/
