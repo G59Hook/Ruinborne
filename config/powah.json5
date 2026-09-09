@@ -1,0 +1,8 @@
+{
+  // Ruinborne progression tuning.
+  // Other Powah values continue to use their mod defaults unless overridden in the pack.
+  "general": {
+    // Increase all Energizing Orb recipe costs by 25% to slow tier rushing without changing individual recipes.
+    "energizing_energy_ratio": 1.25
+  }
+}
