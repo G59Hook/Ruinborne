@@ -1,0 +1,62 @@
+{
+chapter.A027000000000001.title: "Main Journey"
+chapter.A027000000000002.title: "Exploration"
+chapter.A027000000000003.title: "Engineering & Flight"
+chapter.A027000000000004.title: "Talents"
+quest.A027100000000001.title: "Welcome to Ruinborne"
+quest.A027100000000001.quest_desc: ["Ruinborne is built around dangerous RPG-style adventure and building your way into the sky.", "This book is a roadmap, not a leash. Wander, experiment, and come back when you want direction."]
+quest.A027100000000002.title: "The First Ruin"
+quest.A027100000000002.quest_desc: ["Head out and explore. Dungeons, ruins, unusual structures, and hidden loot are the heart of progression."]
+quest.A027100000000003.title: "Build a Workshop"
+quest.A027100000000003.quest_desc: ["Set up a real home base with crafting, storage, food, and room to expand into machinery."]
+quest.A027100000000004.title: "Mechanical Age"
+quest.A027100000000004.quest_desc: ["Create is the foundation of Ruinborne engineering. Learn rotational power, processing, logistics, and automation."]
+quest.A027100000000005.title: "Industrial Age"
+quest.A027100000000005.quest_desc: ["Immersive Engineering introduces steel and heavier industry."]
+quest.A027100000000006.title: "Take to the Skies"
+quest.A027100000000006.quest_desc: ["Aeronautics is seeded through progression instead of being saved only for the endgame.", "Your aircraft should evolve with your character and technology."]
+quest.A027100000000007.title: "The Road Ahead"
+quest.A027100000000007.quest_desc: ["Bigger aircraft, magic, bosses, dimensions, advanced power, treasure hunting, and eventually armed warships all branch out from here."]
+quest.A027200000000001.title: "Begin Exploring"
+quest.A027200000000001.quest_desc: ["Ruinborne rewards curiosity. Roads, ruins, caves, oceans, towers, villages, and distant biomes can all lead somewhere useful."]
+quest.A027200000000002.title: "Find What You Seek"
+quest.A027200000000002.quest_desc: ["Explorer's Compass helps locate structures when you have a specific destination in mind."]
+quest.A027200000000003.title: "Read the Land"
+quest.A027200000000003.quest_desc: ["Nature's Compass helps locate biomes without turning exploration into blind wandering."]
+quest.A027200000000004.title: "Treasure and Relics"
+quest.A027200000000004.quest_desc: ["Artifacts, Relics, spell gear, dungeon weapons, and unique finds keep adventure valuable after your technology improves."]
+quest.A027200000000005.title: "Beneath the Waves"
+quest.A027200000000005.quest_desc: ["Aquamirae turns the ocean into a real adventure zone. Prepare before diving into its harder encounters."]
+quest.A027200000000006.title: "Other Worlds"
+quest.A027200000000006.quest_desc: ["The Aether and Twilight Forest are full adventure paths, not just resource dimensions."]
+quest.A027200000000007.title: "Monster Hunter"
+quest.A027200000000007.quest_desc: ["Mowzie's Mobs, Bosses of Mass Destruction, Aquamirae, and Cataclysm form an escalating boss path."]
+quest.A027300000000001.title: "Engineering Path"
+quest.A027300000000001.quest_desc: ["Engineering grows alongside exploration. Better machines help you travel farther and support larger aircraft."]
+quest.A027300000000002.title: "Create"
+quest.A027300000000002.quest_desc: ["Start with rotational power and mechanical processing. Create remains useful throughout the pack."]
+quest.A027300000000003.title: "Industrial Engineering"
+quest.A027300000000003.quest_desc: ["Steel marks the transition into heavier industry and more serious aviation."]
+quest.A027300000000004.title: "Power Infrastructure"
+quest.A027300000000004.quest_desc: ["Powah provides compact electrical infrastructure for systems that need reliable energy."]
+quest.A027300000000005.title: "Advanced Technology"
+quest.A027300000000005.quest_desc: ["Mekanism is advanced infrastructure. Its strongest machines belong later in progression."]
+quest.A027300000000006.title: "Aeronautics"
+quest.A027300000000006.quest_desc: ["Flight is a recurring progression thread: primitive craft, mechanical aircraft, industrial ships, mobile bases, and war machines."]
+quest.A027300000000007.title: "Armed Skies"
+quest.A027300000000007.quest_desc: ["Create Big Cannons turns late-game aircraft into true combat platforms."]
+quest.A027400000000001.title: "Ruinborne Talents"
+quest.A027400000000001.quest_desc: ["Open the Pufferfish Skills screen to spend Ruinborne skill points.", "There are no classes and no permanent weapon or magic lockouts."]
+quest.A027400000000002.title: "Combat"
+quest.A027400000000002.quest_desc: ["Modest damage and attack-speed improvements for players who lean into fighting."]
+quest.A027400000000003.title: "Survival"
+quest.A027400000000003.quest_desc: ["Health, armor, and stability for harder ruins and boss encounters."]
+quest.A027400000000004.title: "Exploration"
+quest.A027400000000004.quest_desc: ["Movement, safer falls, and water mobility reward players who roam."]
+quest.A027400000000005.title: "Arcane"
+quest.A027400000000005.quest_desc: ["Mana and casting utility for Iron's Spells without turning magic into a class."]
+quest.A027400000000006.title: "Engineering"
+quest.A027400000000006.quest_desc: ["Mining and building utility instead of raw machine-output multipliers."]
+quest.A027400000000007.title: "Aviation"
+quest.A027400000000007.quest_desc: ["Character perks useful around aircraft, including safer falls and steadier movement."]
+}
