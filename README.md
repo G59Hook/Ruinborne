@@ -36,15 +36,7 @@ The CurseForge pack ZIP contains the manifest and Ruinborne-specific overrides. 
 
 ### Development Repository vs Playable Release
 
-This GitHub repository stores Ruinborne's development source and configuration, including:
-
-- configs
-- KubeJS scripts
-- FTB Quest data
-- talent-tree data
-- documentation
-- balancing changes
-- changelogs
+This GitHub repository stores Ruinborne's development source and configuration, including configs, KubeJS scripts, FTB Quest data, talent-tree data, documentation, balancing changes, and changelogs.
 
 The repository itself is **not** the installer. Players should use a packaged `Ruinborne-x.x.x.zip` from Releases or CurseForge.
 
@@ -56,7 +48,7 @@ Aeronautics is intended to appear throughout the game instead of existing only a
 
 ## RPG Progression
 
-Alpha 0.2.10 expands the character-progression system into six separate Pufferfish Skills tabs:
+Alpha 0.2.10 completes the first full character-progression chapter with six separate Pufferfish Skills tabs:
 
 - Combat
 - Survival
@@ -65,11 +57,13 @@ Alpha 0.2.10 expands the character-progression system into six separate Pufferfi
 - Engineering
 - Aviation
 
-The current build contains 93 talent nodes across those tabs. Talent tooltips show the exact effect, category-XP cost, skill-point cost, and rank. There are no classes and no permanent weapon or magic lockouts.
+The finalized system contains **147 talent nodes**. Every specialization has five branches ending in capstones, and the final identity pass removes raw attribute overlap between different trees so each tab has a distinct role.
 
-Combat, Survival, Exploration, Arcane, and Engineering have activity-based XP sources. Aviation is intentionally milestone-driven so ordinary grinding cannot replace the Aeronautics progression path.
+Signature endgame talents include Combat lifesteal and an execute effect, Survival's Last Stand damage reduction, Exploration's permanent Night Vision, Arcane's Spellforged fire ward, Engineering's Haste-based Industrial Savant, and Aviation's Skyborn emergency Slow Falling after a long fall.
 
-Talent bonuses are intentionally restrained so character growth does not trivialize Ruinborne's bosses or exploration content.
+Talent tooltips show exact effects, costs, ranks, and branch totals. There are no classes and no permanent weapon or magic lockouts. All six tabs currently use the same tested Talent XP curve and activity-based XP foundation; progression pacing will continue to be balanced during later alpha testing.
+
+Talent bonuses are intended to provide meaningful specialization without trivializing Ruinborne's bosses or exploration content.
 
 ## Quest Roadmap
 
@@ -82,7 +76,7 @@ Current chapters are:
 - Engineering & Flight
 - Talents
 
-The Engineering & Flight path now seeds Aeronautics throughout progression through envelope construction, hot-air lift, powered flight, and later armed-airship goals rather than treating flight as a single late-game unlock.
+The Engineering & Flight path seeds Aeronautics throughout progression through envelope construction, hot-air lift, powered flight, and later armed-airship goals rather than treating flight as a single late-game unlock.
 
 Future chapters will expand boss hunting, dimensions, magic, loot progression, Aeronautics milestones, and endgame content.
 
@@ -93,6 +87,10 @@ The current technology direction is:
 **Create → Immersive Engineering → Powah → Mekanism**
 
 Aeronautics runs alongside that progression rather than simply sitting at the end of it.
+
+## Create Aeronautics
+
+Create Aeronautics is one of Ruinborne's signature systems. Alpha 0.2.10 also includes **Create Aeronautics: Toolgun**, resolving the Transmission & Linkage toolgun dependency warning encountered during testing.
 
 ## Major Adventure Systems
 
@@ -111,6 +109,10 @@ Ruinborne currently includes major content from systems such as:
 - Artifacts and Relics
 - Iron's Spells 'n Spellbooks
 - Modern Foundry
+
+## Interface Direction
+
+Inventory Profiles Next and libIPN were removed during the final 0.2.10 testing pass because their inventory overlays added visual clutter. Ruinborne's long-term direction is to keep the interface clean and leave room for a custom pack UI later in development.
 
 ## Repository
 
