@@ -4,12 +4,15 @@
 
 Primary goals:
 
+- [x] Complete the six-tree RPG talent foundation, branch capstones, and signature skill identities
 - Define early, mid, late, and endgame progression stages
 - Gate advanced technology and Aeronautics intentionally
 - Balance Waystones and other travel systems so exploration still matters
 - Tune Create Ore Excavation and other automation systems
 - Verify exact recipe and item IDs before KubeJS recipe changes
 - Begin loot and structure-frequency tuning
+
+Alpha 0.2.10 closes the first skill-system chapter with 147 tested talents across Combat, Survival, Exploration, Arcane, Engineering, and Aviation. Future skill work in the 0.2.x line should focus on XP pacing and balance rather than expanding the trees.
 
 ## Alpha 0.3.x — Adventure Progression
 
