@@ -1,5 +1,145 @@
 # Changelog
 
+## Ruinborne Alpha 0.2.10
+
+Alpha 0.2.10 closes Ruinborne's first full character-progression chapter. The skill system has moved from an early prototype into six tested specialization trees with branch identities, expensive capstones, and several signature mechanics.
+
+### Character Progression — Skills Chapter Complete
+
+- Rebuilt character progression into six separate Pufferfish Skills tabs: Combat, Survival, Exploration, Arcane, Engineering, and Aviation
+- Expanded the system to **147 total talent nodes**
+- Added **30 branch-end capstones**, five per specialization
+- Kept the trees classless so players can mix specializations rather than being permanently locked into a class
+- Polished talent tooltips so players can see exact effects, ranks, point costs, and branch totals
+- Standardized the tested Talent XP curve at `min(35 + level * 5, 200)` XP for the next point
+- Completed a final identity pass that removes raw attribute overlap between different trees
+
+### Final Skill Identities
+
+#### Combat
+
+Combat now owns direct melee offense and sustain:
+
+- Attack Damage
+- Attack Speed
+- Attack Knockback
+- Sweeping Damage Ratio
+- Execute damage
+- Lifesteal
+
+Bloodthirst progresses through **2% → 4% → 6% lifesteal**. The Bloodbound capstone raises that to **8% lifesteal**, capped at 3 HP / 1.5 hearts healed per hit. The highest unlocked tier is used rather than stacking the percentages together.
+
+Executioner's Edge gives **25% more final damage** against enemies at or below 30% health.
+
+#### Survival
+
+Survival now owns durability and environmental endurance:
+
+- Maximum Health
+- Armor
+- Knockback Resistance
+- Reduced burn duration
+- Oxygen endurance
+
+Colossus Heart adds the Last Stand mechanic, reducing incoming damage by **20% while the player is at or below 30% health**.
+
+#### Exploration
+
+Exploration now owns general travel and terrain handling:
+
+- Movement Speed
+- Safe Fall Distance
+- Water Movement Efficiency
+- Luck
+- Step Height
+
+Trailblazer provides permanent Night Vision while the capstone is unlocked.
+
+#### Arcane
+
+Arcane now stays entirely within spell and magical attributes:
+
+- Maximum Mana
+- Mana Regeneration
+- Cooldown Reduction
+- Spell Resistance
+- Casting Movement Speed
+
+Spellforged Body adds a permanent Fire Resistance ward while unlocked.
+
+#### Engineering
+
+Engineering now focuses on building, mining, and interaction utility:
+
+- Mining Efficiency
+- Block Break Speed
+- Block Interaction Range
+- Entity Interaction Range
+- Submerged Mining Speed
+
+Industrial Savant provides permanent Haste I while unlocked.
+
+#### Aviation
+
+Aviation now has its own aircrew-focused stat package rather than borrowing Exploration or Survival attributes:
+
+- Fall Damage Reduction
+- Movement Efficiency
+- Explosion Knockback Resistance
+- Sneaking Speed
+- Jump Strength
+
+Skyborn now triggers after falling 6 or more blocks and grants **8 seconds of Slow Falling**, giving pilots enough time to recover from long drops or airship accidents.
+
+### KubeJS Talent Hooks
+
+Several capstones use isolated KubeJS hooks so their effects can be more interesting than flat attributes alone.
+
+- Fixed the 1.21.1 KubeJS damage hook by using `EntityEvents.beforeHurt`
+- Added lifesteal handling for Bloodthirst and Bloodbound
+- Added Executioner's Edge low-health damage scaling
+- Added Survival Last Stand damage reduction
+- Added persistent Night Vision, Fire Resistance, and Haste capstone effects
+- Added Skyborn emergency Slow Falling
+
+The final capstone script was tested in game with no new KubeJS errors from the talent system.
+
+### Create Aeronautics
+
+Added **Create Aeronautics: Toolgun** to satisfy the Transmission & Linkage toolgun requirement. The previous in-game missing-toolgun warning no longer appears in the finalized test build.
+
+### Interface Cleanup
+
+Removed:
+
+- Inventory Profiles Next
+- libIPN
+
+Inventory Profiles Next's locked-slot indicators and extra inventory controls were adding visual clutter. Ruinborne is keeping the inventory interface cleaner in preparation for a custom UI direction later in development.
+
+### Final 0.2.10 Validation
+
+The final 0.2.10 skill build was tested in game and confirmed working across all six trees.
+
+Validated during the final pass:
+
+- All six skill tabs load correctly
+- All 147 talents are present
+- All branch connections and capstones work
+- Bloodthirst and Bloodbound lifesteal work
+- Executioner's Edge works
+- Last Stand works
+- Trailblazer Night Vision works
+- Spellforged Fire Resistance works
+- Industrial Savant Haste works
+- Skyborn triggers correctly and uses the extended 8-second duration
+- Create Aeronautics: Toolgun warning is resolved
+- Inventory Profiles Next UI clutter is removed
+
+With this release, the **skill-tree design itself is considered complete**. Future skill work should focus on XP pacing and balance testing rather than adding more branches or overlapping stat nodes.
+
+---
+
 ## Ruinborne Alpha 0.2.7
 
 This is the first planned alpha release of Ruinborne.
